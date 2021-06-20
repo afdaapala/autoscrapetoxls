@@ -1,0 +1,5 @@
+pathlib
+bs4
+urllib3
+pywin32
+requests
