@@ -21,25 +21,24 @@ r = response.text
 
 cont = bs(r,"xml")
 # print(cont)
-# print(cont.prettify())
 tanggal = {'hari ini' : '', 'besok':''}
 tempat = {'baubau': '', 'kendari': '' }
 
 kode = {
-'0': 'Cerah / Clear Skies',
-'1': 'Cerah Berawan / Party Cloudy',
-'2': 'Cerah Berawan / Partly Cloudy',
-'3': 'Berawan / Mostly Cloudy',
-'4': 'Berawan Tebal / Overcast',
-'5': 'Udara Kabur / Haze',
-'10': 'Asap / Smoke',
-'45': 'Kabut / Fog',
-'60': 'Hujan Ringan / Light Rain',
-'61': 'Hujan Sedang / Rain',
-'63': 'Hujan Lebat / Heavy Rain',
-'80': 'Hujan Lokal / Isolated Shower',
-'95': 'Hujan Petir / Severe Thunderstorm',
-'97': 'Hujan Petir / Severe Thunderstorm'
+'0': 'Cerah',
+'1': 'Cerah Berawan',
+'2': 'Cerah Berawan',
+'3': 'Berawan',
+'4': 'Berawan Tebal',
+'5': 'Udara Kabur',
+'10': 'Asap',
+'45': 'Kabut',
+'60': 'Hujan Ringan',
+'61': 'Hujan Sedang',
+'63': 'Hujan Lebat',
+'80': 'Hujan Lokal',
+'95': 'Hujan Lebat Disertai Petir',
+'97': 'Hujan Lebat Disertai Petir'
 }
 
 #fetchdate
